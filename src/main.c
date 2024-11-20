@@ -10,13 +10,13 @@ int main(int argc, char *argv[])
     while ((opt = getopt(argc, argv, "ha:b:c:")) != -1) {
         switch (opt) {
         case 'a':
-            printf("option a: %s\n", optarg);
+            printf("option - a: %s\n", optarg);
             break;
         case 'b':
-            printf("option b: %s\n", optarg);
+            printf("option - b: %s\n", optarg);
             break;
         case 'c':
-            printf("option c: %s\n", optarg);
+            printf("option - c: %s\n", optarg);
             break;
         case 'h':
             usage(argv[0]);
